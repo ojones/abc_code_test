@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>abc code</title>
+</head>
+<body>
+    <h1>Keywords</h1>
+
+    <ul id="navigation">
+    {% for item in keywords %}
+        <li><a href="{{ item.id }}">{{ item.answer }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

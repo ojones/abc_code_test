@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abc code: complete</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <style>
+        #scores_link {
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<h2>Test Score:</h2>
+
+    <table id="scores_list" class="pure-table pure-table-striped">
+        <tr>
+           <th>Question</th>
+           <th>Answered</th>
+           <th>Score</th>
+           <th>Possible</th>
+        </tr>
+    {% for item in scores %}
+        <tr>
+            <td>{{ item.question }}</td>
+            <td>{{ item.answered }}</td>
+            <td>{{ item.score }}</td>
+            <td>{{ item.points_possible }}</td>
+        </tr>
+    {% endfor %}
+
+    </table>
+    <a id="scores_link" href="/scores">view all scores</a>
+</body>
+</html>
