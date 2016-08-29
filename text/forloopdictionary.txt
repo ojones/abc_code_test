@@ -1,0 +1,1 @@
+A loop construct found in many procedural languages which repeatedly executes some instructions while a condition is true.

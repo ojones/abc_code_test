@@ -31,3 +31,10 @@ insert into keywords values(
     'Action case or statement dependant on a condition.',
     'case depend'
 );
+
+insert into keywords values(
+    'keyword-1-5',
+    'question-1',
+    'features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false',
+    'features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false'
+);

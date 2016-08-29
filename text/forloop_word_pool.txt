@@ -1,0 +1,1 @@
+An instruction that happens over and over Code that does the same thing to a group of things Code that can be repeated many times for different instances The way computers count

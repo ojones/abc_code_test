@@ -42,3 +42,12 @@ create table scores(
     score smallint,
     criteria_id varchar(30)
 );
+
+create table fake_scores(
+    id varchar(30),
+    test_id varchar(30),
+    question_id varchar(30),
+    answered varchar(255),
+    score smallint,
+    criteria_id varchar(30)
+);
