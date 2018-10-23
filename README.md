@@ -1,4 +1,4 @@
->App to generate quiz and automatically score them using keywords. 
+>App to generate quizes and automatically score them using keywords. 
 
 # Auto Score
    * [Background](#background)
